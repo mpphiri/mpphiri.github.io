@@ -3,10 +3,8 @@ title: "On Bridging Analyticity and Sparseness in Hyperdissipative Navier–Stok
 collection: publications
 category: manuscripts
 permalink: /publication/bridging-analyticity-sparseness
-date: 2026-12-03
-venue: "Preprint"
+date: 2025-12-03
+venue: "Journal of Mathematical Fluid Mechanics (accepted)"
 paperurl: "https://doi.org/10.48550/arXiv.2512.03378"
-citation: "Phiri, M. P. On Bridging Analyticity and Sparseness in Hyperdissipative Navier–Stokes Systems. Preprint."
+citation: "Phiri, M. P. On Bridging Analyticity and Sparseness in Hyperdissipative Navier–Stokes Systems. Journal of Mathematical Fluid Mechanics, accepted for publication."
 ---
-
-This preprint studies analyticity and sparseness mechanisms for hyperdissipative Navier–Stokes systems in the near-critical regime.
