@@ -21,6 +21,11 @@ Topics include:
 
 ## YouTube
 
-I run the YouTube channel **College Mathematics Made Simple**, where I share mathematics lessons, worked examples, and exam-style problem-solving videos.
-
-[Visit College Mathematics Made Simple](https://www.youtube.com/@CollegeMathMadeSimple)
+<p>
+  I run the YouTube channels
+  <a href="https://www.youtube.com/@HighSchoolMathMadeSimple">High School Math Made Simple</a>
+  and
+  <a href="https://www.youtube.com/@CollegeMathMadeSimple">College Mathematics Made Simple</a>,
+  where I share mathematics lessons, worked examples, and
+  exam-style problem-solving videos for high school and college students.
+</p>
