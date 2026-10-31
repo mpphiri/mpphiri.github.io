@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a Ph.D. candidate in Applied Mathematics at the University of Alabama at Birmingham, advised by **Prof. Zoran Grujić**, with a minor in Mechanical Engineering. I expect to graduate in May 2027.
+I am a Ph.D. candidate in Applied Mathematics at the University of Alabama at Birmingham, advised by **[Prof. Zoran Grujić](https://www.uab.edu/cas/mathematics/people/faculty-directory/zoran-grujic)**, with a minor in Mechanical Engineering.
 
 I study nonlinear partial differential equations and mathematical fluid dynamics, focusing on regularity and possible singularities in three-dimensional Navier–Stokes flows. My work connects higher-order derivative estimates, spatial analyticity, and geometric sparseness to identify conditions that prevent finite-time blow-up.
 
