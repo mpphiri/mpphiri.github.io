@@ -41,3 +41,87 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Warm palette: scoped to light mode so the theme toggle stays readable. */
+html:not([data-theme="dark"]) {
+  --global-base-color: #9a432d;
+  --global-bg-color: #faf7f2;
+  --global-footer-bg-color: #f0e9df;
+  --global-border-color: #e5ddd3;
+  --global-dark-border-color: #c4b7a8;
+  --global-text-color: #292524;
+  --global-text-color-light: #625951;
+  --global-link-color: #9a432d;
+  --global-link-color-hover: #74321f;
+  --global-link-color-visited: #854333;
+  --global-masthead-link-color: #292524;
+  --global-masthead-link-color-hover: #9a432d;
+  --global-thead-color: #f0e9df;
+  --home-card-bg: #fff;
+}
+html[data-theme="dark"] {
+  --home-card-bg: var(--global-bg-color);
+}
+
+.page__content { line-height: 1.75; }
+.page__title { line-height: 1.2; }
+.archive__item-title { font-size: 1.2em; line-height: 1.4; }
+
+.page__content a:not(.btn):not(.home-card),
+.archive__item-title a {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+.greedy-nav .visible-links a::before {
+  background: var(--global-link-color);
+}
+a:focus-visible,
+button:focus-visible,
+.greedy-nav button:focus-visible {
+  outline: 3px solid var(--global-link-color);
+  outline-offset: 4px;
+}
+
+.home-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.page__content a.home-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 1.35rem;
+  color: var(--global-text-color);
+  background: var(--home-card-bg);
+  border: 1px solid var(--global-border-color);
+  border-top: 4px solid var(--global-link-color);
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(41, 37, 36, 0.05);
+  text-decoration: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.page__content a.home-card:hover,
+.page__content a.home-card:focus-visible {
+  color: var(--global-text-color);
+  border-color: var(--global-link-color);
+  box-shadow: 0 5px 16px rgba(41, 37, 36, 0.12);
+  text-decoration: none;
+}
+.home-card__title { font-size: 1.05em; line-height: 1.4; }
+.home-card__description { margin: 0.7rem 0 1rem; font-size: 0.9em; }
+.home-card__cta {
+  margin-top: auto;
+  color: var(--global-link-color);
+  font-size: 0.9em;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+@media (max-width: 480px) {
+  .home-links { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .page__content a.home-card { transition: none; }
+}
