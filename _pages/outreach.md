@@ -1,31 +1,27 @@
 ---
 layout: single
-title: "Outreach"
+title: "Outreach & Math Resources"
 permalink: /outreach/
 author_profile: true
 ---
 
-I am interested in making mathematics accessible to a broad audience, including high school students, college students, and independent learners.
+I create mathematics lessons and worked examples for high school students, college students, and independent learners. The lessons emphasize clear explanations, foundational skills, and step-by-step problem solving.
 
-## Educational Content
+## High School Math Made Simple
 
-I create mathematics content focused on worked examples, exam preparation, and foundational topics in algebra, trigonometry, precalculus, and calculus.
+Algebra, trigonometry, and examination preparation, including problems in the style of the **Examinations Council of Zambia (ECZ)**.
 
-Topics include:
+[Explore high school lessons on YouTube](https://www.youtube.com/@HighSchoolMathMadeSimple)
 
-- Precalculus algebra
-- Trigonometry
-- High school calculus
-- ECZ-style examination problems
-- College mathematics preparation
+## College Mathematics Made Simple
 
-## YouTube
+Precalculus and calculus lessons for students preparing for college mathematics or reviewing material alongside their courses.
 
-<p>
-  I run the YouTube channels
-  <a href="https://www.youtube.com/@HighSchoolMathMadeSimple">High School Math Made Simple</a>
-  and
-  <a href="https://www.youtube.com/@CollegeMathMadeSimple">College Mathematics Made Simple</a>,
-  where I share mathematics lessons, worked examples, and
-  exam-style problem-solving videos for high school and college students.
-</p>
+[Explore college mathematics lessons on YouTube](https://www.youtube.com/@CollegeMathMadeSimple)
+
+## Community and Academic Service
+
+- **Volunteer Proctor, UAB Math Kangaroo Competition:** Supervised a mathematics competition for school-age students.
+- **Planning Committee Member, 2026 UAB College of Arts and Sciences Graduate Research Symposium.**
+
+For my university courses and classroom approach, see [Teaching]({{ '/teaching/' | relative_url }}).

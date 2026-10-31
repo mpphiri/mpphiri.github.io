@@ -25,15 +25,15 @@ author:
   # Biographic information
   avatar           : "Moses-VISA.jpg"
   name             : "Moses Patson Phiri"  
-  bio              : "Ph.D. Candidate in Applied Mathematics at the University of Alabama at Birmingham. My research interests include nonlinear PDEs, fluid dynamics, turbulence, and Navier–Stokes regularity theory."
+  bio              : "Ph.D. Candidate in Applied Mathematics at UAB. Nonlinear PDEs and mathematical fluid dynamics."
   location         : "Birmingham, AL"
-  employer         : "University of Alabama at Birmingham"
-  uri              : "https://mpphiri.github.io"
+  employer         : "UAB Department of Mathematics"
+  uri              : ""
   email            : "mpphiri@uab.edu" 
 
   # Academic websites
   academia         : # URL
-  arxiv            : "http://arxiv.org/a/phiri_m_1"
+  arxiv            : "https://arxiv.org/a/phiri_m_1"
   googlescholar    : "https://scholar.google.com/citations?user=gY_YoRMAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL

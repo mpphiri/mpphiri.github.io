@@ -6,27 +6,32 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am Moses Patson Phiri, a Ph.D. Candidate in Applied Mathematics at the University of Alabama at Birmingham, with a minor in Mechanical Engineering.
+I am a Ph.D. candidate in Applied Mathematics at the University of Alabama at Birmingham, advised by **Prof. Zoran Grujić**, with a minor in Mechanical Engineering. I expect to graduate in May 2027.
+
+I study nonlinear partial differential equations and mathematical fluid dynamics, focusing on regularity and possible singularities in three-dimensional Navier–Stokes flows. My work connects higher-order derivative estimates, spatial analyticity, and geometric sparseness to identify conditions that prevent finite-time blow-up.
 
 <nav class="home-links" aria-label="Explore my work">
-  <a class="home-card" href="{{ '/publications/' | relative_url }}">
-    <strong class="home-card__title">Research &amp; Publications</strong>
-    <span class="home-card__description">Explore my work on Navier–Stokes equations and mathematical fluid dynamics.</span>
-    <span class="home-card__cta">View publications →</span>
+  <a class="home-card" href="{{ '/research/' | relative_url }}">
+    <strong class="home-card__title">Research</strong>
+    <span class="home-card__description">Navier–Stokes regularity, analyticity, and turbulence scales.</span>
+    <span class="home-card__cta">View research →</span>
   </a>
   <a class="home-card" href="{{ '/teaching/' | relative_url }}">
     <strong class="home-card__title">Teaching</strong>
-    <span class="home-card__description">Learn about my courses, teaching experience, and approach to mathematics education.</span>
-    <span class="home-card__cta">Explore teaching →</span>
+    <span class="home-card__description">Courses, classroom practice, and teaching experience.</span>
+    <span class="home-card__cta">View teaching →</span>
   </a>
   <a class="home-card" href="{{ '/outreach/' | relative_url }}">
-    <strong class="home-card__title">Math Made Simple</strong>
-    <span class="home-card__description">Find mathematics lessons and worked examples for high school and college students.</span>
-    <span class="home-card__cta">Explore learning resources →</span>
+    <strong class="home-card__title">Math Resources</strong>
+    <span class="home-card__description">Lessons and worked examples for school and college.</span>
+    <span class="home-card__cta">View resources →</span>
   </a>
 </nav>
 
+## Selected Updates
 
-My research lies at the intersection of partial differential equations and fluid dynamics, with a primary focus on regularity theory and singularity formation in the three-dimensional Navier-Stokes and hyperdissipative Navier-Stokes equations. My work combines higher-order derivative estimates, spatial analyticity techniques, geometric sparseness of regions of intense fluid activity, and tools from harmonic analysis to establish regularity criteria and investigate mechanisms that preclude finite-time blow-up.
+- **October 2026:** New preprint with Zoran Grujić: [Dynamic Interpolation and Higher-Order Turbulence Scales in 3D Navier–Stokes Flows]({{ '/publication/dynamic-interpolation-turbulence-scales' | relative_url }}).
+- **2026:** [On Bridging Analyticity and Sparseness in Hyperdissipative Navier–Stokes Systems]({{ '/publication/bridging-analyticity-sparseness' | relative_url }}) appears in *Journal of Mathematical Fluid Mechanics*, volume 28, article 75.
+- **Fall 2026:** Teaching MA 126: Calculus II at UAB. See [teaching experience]({{ '/teaching/' | relative_url }}) and [upcoming talks]({{ '/talks/' | relative_url }}).
 
-Beyond research, I am passionate about mathematics education and the development of accessible, engaging mathematical content for both college and high school students. I enjoy helping students build strong conceptual foundations and fostering enthusiasm for mathematics through clear instruction and innovative learning resources.
+[View publications]({{ '/publications/' | relative_url }}) · [Download CV (PDF)]({{ '/files/MosesCV.pdf' | relative_url }}) · [Email me](mailto:mpphiri@uab.edu)
