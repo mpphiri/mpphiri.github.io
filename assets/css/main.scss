@@ -42,25 +42,27 @@
     "vendor/font-awesome/brands"
 ;
 
-/* Warm palette: scoped to light mode so the theme toggle stays readable. */
+/* Ivory, green, and gold palette: scoped to light mode so the theme toggle stays readable. */
 html:not([data-theme="dark"]) {
-  --global-base-color: #9a432d;
-  --global-bg-color: #faf7f2;
-  --global-footer-bg-color: #f0e9df;
-  --global-border-color: #e5ddd3;
-  --global-dark-border-color: #c4b7a8;
+  --global-base-color: #006241;
+  --global-bg-color: #faf9f6;
+  --global-footer-bg-color: #f0eee7;
+  --global-border-color: #e3e1d9;
+  --global-dark-border-color: #bdb9ab;
   --global-text-color: #292524;
   --global-text-color-light: #625951;
-  --global-link-color: #9a432d;
-  --global-link-color-hover: #74321f;
-  --global-link-color-visited: #854333;
+  --global-link-color: #006241;
+  --global-link-color-hover: #004c33;
+  --global-link-color-visited: #285c49;
   --global-masthead-link-color: #292524;
-  --global-masthead-link-color-hover: #9a432d;
-  --global-thead-color: #f0e9df;
+  --global-masthead-link-color-hover: #006241;
+  --global-thead-color: #f0eee7;
   --home-card-bg: #fff;
+  --home-card-accent: #c49a45;
 }
 html[data-theme="dark"] {
   --home-card-bg: var(--global-bg-color);
+  --home-card-accent: var(--global-link-color);
 }
 
 .page__content { line-height: 1.75; }
@@ -96,7 +98,7 @@ button:focus-visible,
   color: var(--global-text-color);
   background: var(--home-card-bg);
   border: 1px solid var(--global-border-color);
-  border-top: 4px solid var(--global-link-color);
+  border-top: 3px solid var(--home-card-accent);
   border-radius: 12px;
   box-shadow: 0 3px 12px rgba(41, 37, 36, 0.05);
   text-decoration: none;
