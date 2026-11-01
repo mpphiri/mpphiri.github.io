@@ -14,26 +14,45 @@ author_profile: true
   </a>.
 </p>
 
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
+<h2>Preprints and Journal Articles</h2>
 
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
+<ol class="publication-references">
+  <li>
+    Phiri, M. P., and Grujić, Z.
+    <a href="{{ '/publication/dynamic-interpolation-turbulence-scales' | relative_url }}">Dynamic Interpolation and Higher-Order Turbulence Scales in 3D Navier–Stokes Flows</a>.
+    <em>arXiv preprint</em>, arXiv:2610.33911, 2026.
+    <a href="https://doi.org/10.48550/arXiv.2610.33911">doi:10.48550/arXiv.2610.33911</a>.
+  </li>
+  <li>
+    Phiri, M. P.
+    <a href="{{ '/publication/bridging-analyticity-sparseness' | relative_url }}">On Bridging Analyticity and Sparseness in Hyperdissipative Navier–Stokes Systems</a>.
+    <em>Journal of Mathematical Fluid Mechanics</em>, <strong>28</strong>, article 75, 2026.
+    <a href="https://doi.org/10.1007/s00021-026-01054-1">doi:10.1007/s00021-026-01054-1</a>.
+  </li>
+</ol>
 
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2>
-        <hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<style>
+  .publication-references {
+    list-style: none;
+    counter-reset: reference;
+    margin: 1.25rem 0;
+    padding: 0;
+  }
+  .publication-references li {
+    counter-increment: reference;
+    position: relative;
+    padding-left: 2.2em;
+    margin-bottom: 1.2em;
+    line-height: 1.65;
+    overflow-wrap: anywhere;
+  }
+  .publication-references li::before {
+    content: "[" counter(reference) "]";
+    position: absolute;
+    left: 0;
+  }
+  .publication-references a {
+    font-weight: normal;
+    text-underline-offset: 0.15em;
+  }
+</style>
